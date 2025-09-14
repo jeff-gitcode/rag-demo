@@ -54,6 +54,8 @@ python main.py
 # run jupyter notebook
 uv run --with jupyter jupyter lab
 
+# add new notebook file
+
 ```
 
 ## RAG Pipeline
