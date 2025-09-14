@@ -50,6 +50,10 @@ pip install -e .
 
 # 4. Run the demo
 python main.py
+
+# run jupyter notebook
+uv run --with jupyter jupyter lab
+
 ```
 
 ## RAG Pipeline
