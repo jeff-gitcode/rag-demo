@@ -43,7 +43,7 @@ rag-demo/
 uv init .
 
 # 2. Install dependencies
-uv add chromadb>=1.0.21 google-genai>=1.36.0 python-dotenv>=1.1.1 sentence-transformers>=5.1.0
+uv add chromadb>=1.0.21 google-genai>=1.36.0 python-dotenv>=1.1.1 sentence-transformers>=5.1.0 dashscope
 
 # 3. Alternative installation method
 pip install -e .
@@ -78,3 +78,10 @@ The system implements a three-stage RAG approach:
 ## License
 
 [Add your license information here]
+
+---
+
+**📚 Additional Resources:**
+- [📓 Complete Implementation Guide](./main.md) - Generated from Jupyter notebook
+- [🔧 Configuration Options](./main.md#configuration)
+- [💡 Examples & Use Cases](./main.md#examples)
