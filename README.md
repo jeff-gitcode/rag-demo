@@ -18,7 +18,7 @@ rag-demo/
 ├── .python-version     # Python version specification
 ├── .gitignore          # Git ignore rules
 ├── docker-compose.yml  # Docker Compose for local Ollama LLM
-└── ../凡人修仙传.txt    # Source text corpus
+└── doc.md              # Source text corpus
 ```
 
 ## Features
