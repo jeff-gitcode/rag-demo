@@ -4,7 +4,9 @@ A Retrieval-Augmented Generation (RAG) demonstration project using Chinese liter
 
 ## Overview
 
-This project implements a RAG system that uses "凡人修仙传" (A Record of Mortal's Cultivation to Immortality) as the text corpus to demonstrate information retrieval and generation capabilities.
+This project implements a RAG system that uses doc.md as the text corpus to demonstrate information retrieval and generation capabilities.
+
+![alt text](./doc/rag-jupyter-demo.gif)
 
 ## Project Structure
 
