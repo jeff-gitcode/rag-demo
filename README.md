@@ -64,6 +64,9 @@ python main.py
 
 # 7. Run Jupyter notebook
 uv run --with jupyter jupyter lab
+
+# 8. langgraph
+uv add langgraph
 ```
 
 ## RAG Pipeline
