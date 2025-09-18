@@ -1,22 +1,4 @@
 ```python
-# node1 takes an input string and concatenates with another string and returns
-def node1(str):
-  return str + " I reached Node1."
-```
-
-
-```python
-# node2 takes an input string and concatenates with another string and returns
-def node2(str):
-  return str + " And now at Node2."
-```
-
-
-```python
-# Install langgraph
-# %pip install langgraph
-
-from langgraph.graph import StateGraph
 from typing_extensions import TypedDict
 from typing import Annotated
 import operator
@@ -25,13 +7,32 @@ import operator
 class GraphState(TypedDict):
     message: Annotated[str, operator.add]
 
+```
+
+
+```python
+# node1 takes an input string and concatenates with another string and returns
 # node1 takes an input state and returns updated state
 def node1(state: GraphState) -> GraphState:
     return {"message": state["message"] + " I reached Node1."}
 
+```
+
+
+```python
+# node2 takes an input string and concatenates with another string and returns
 # node2 takes an input state and returns updated state  
 def node2(state: GraphState) -> GraphState:
     return {"message": state["message"] + " And now at Node2."}
+
+```
+
+
+```python
+# Install langgraph
+# %pip install langgraph
+
+from langgraph.graph import StateGraph
 
 # Create a new Graph with state schema
 workflow = StateGraph(GraphState)
@@ -66,7 +67,7 @@ display(Image(app.get_graph().draw_mermaid_png()))
 
 
     
-![png](langgraph_files/langgraph_3_0.png)
+![png](langgraph_files/langgraph_4_0.png)
     
 
 
