@@ -67,6 +67,9 @@ uv run --with jupyter jupyter lab
 
 # 8. langgraph
 uv add langgraph
+
+# output notebook to md
+uv run jupyter nbconvert --to markdown main.ipynb
 ```
 
 ## RAG Pipeline
@@ -93,6 +96,5 @@ The system implements a three-stage RAG approach:
 ---
 
 **📚 Additional Resources:**
-- [📓 Complete Implementation Guide](./main.md) - Generated from Jupyter notebook
-- [🔧 Configuration Options](./main.md#configuration)
-- [💡 Examples & Use Cases](./main.md#examples)
+- [📓 RAG DEMO](./main.md) - Generated from Jupyter notebook
+- [🔧 LangGraph Demo](./langgraph.md)
